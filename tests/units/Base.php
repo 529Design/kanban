@@ -54,7 +54,7 @@ abstract class Base extends PHPUnit\Framework\TestCase
 
         $this->container['dispatcher'] = new TraceableEventDispatcher(
             new EventDispatcher,
-            new Stopwatch
+//            new Stopwatch
         );
 
         $this->dispatcher = $this->container['dispatcher'];
