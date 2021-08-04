@@ -46,7 +46,7 @@ defined('DB_FILENAME') or define('DB_FILENAME', getenv('DB_FILENAME') ?: DATA_DI
 
 // Mysql/Postgres configuration
 defined('DB_USERNAME') or define('DB_USERNAME', getenv('DB_USERNAME') ?: 'root');
-defined('DB_PASSWORD') or define('DB_PASSWORD', getenv('DB_PASSWORD') ?: '');
+defined('DB_PASSWORD') or define('DB_PASSWORD', getenv('DB_PASSWORD') ?: 'kanboard');
 defined('DB_HOSTNAME') or define('DB_HOSTNAME', getenv('DB_HOSTNAME') ?: 'localhost');
 defined('DB_NAME') or define('DB_NAME', getenv('DB_NAME') ?: 'kanboard');
 defined('DB_PORT') or define('DB_PORT', intval(getenv('DB_PORT')) ?: null);
