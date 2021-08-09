@@ -35,7 +35,7 @@
         "symfony/console" : "4.2.12",
         "symfony/event-dispatcher" : "3.4.2",
         "gregwar/captcha": "1.1.9",
-        "symfony/stopwatch": "^3.4"
+        "symfony/stopwatch": "^5.3"
     },
     "autoload" : {
         "classmap" : ["app/"],
